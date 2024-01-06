@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Weather app</title>
+
+		<!-- Loading third party fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/2655b3b7cf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400;700;900&display=swap" rel="stylesheet">
+
+		<!-- Loading main css file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/style.css">
+
+	<!-- site icon -->
+	<link rel="icon" href="./images/icons/icon-1.svg">
+	</head>
+
+
+	<body>
+		
+		<div class="site-content">
+      <!-- .site-header -->
+			<div class="site-header">
+            <div class="cloudy">
+              <span class="cloud"></span>
+              <span class="cloudx"></span>
+            </div>
+            <a href="#" class="py-3">
+            <h1>
+              Weather App
+            </h1>
+          </a>
+				</div>
+			</div> 
+
+      <!-- hero section -->
+			<div class="hero">
+				<div class="container">
+					<form action="#" class="find-location">
+						<input type="text" placeholder="Find your location..." class="myFont map-link" id="cityName">
+            			<input type="submit" value="Get Your Location" class="myFont" id="findMe">
+					</form>
+
+				</div>
+			</div>
+			<div class="forecast-table">
+				<div class="container">
+					<div class="forecast-container">
+						<div class="today forecast">
+							<div class="forecast-header" id="today">
+								
+							</div> 
+							<!-- .forecast-header -->
+							<div class="forecast-content" id="city">
+
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header" id="tommorow">
+
+							</div> 
+							<!-- .forecast-header -->
+							<div class="forecast-content" id="nextDay">
+
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header" id="dayAfterTommorrow">
+							</div> 
+							<!-- .forecast-header -->
+							<div class="forecast-content" id="dayAfterNext">
+
+							</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/mani.js"></script>
+
+</body>
+</html>
+
